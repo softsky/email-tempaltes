@@ -11,7 +11,9 @@ Every email template consist of 3 files
 Currently we support Jade engine to format our files.
 
 HTML contains HTML formatted email message 
+
 TEXT contains PLAIN TEXT formatted email message
+
 SUBJECT contains PLAIN TEXT formatted email subject
 
 ## Editing
