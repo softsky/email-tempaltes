@@ -1,11 +1,16 @@
-h6
- | #{name.first},
-p
- | Quick scan of #{url} domain have been finished.
- | Complete report attached.
-p
- | Feel free to ask us any questons you might have fixing your security issues.
-| -
-| Sincerely,
-h6
- | SOFTSKY Scan Team
+body
+  h4 Greetings, #{name.first}!
+  p
+   |Quick scan of #{url} domain has been finished.
+   |Complete report attached.
+  p
+   |You are eligible for Online Scan 
+   a(href='http://softsky.com.ua/online-scan#website/round-1') ROUND 1!
+  p
+   |Feel free to contact us asking any questons you might have fixing your security issues.
+  p
+   |-
+   br
+   |Sincerely,
+   br
+   strong SOFTSKY Security Audit Team
